@@ -6,7 +6,6 @@ from airflow import models
 from airflow.utils.trigger_rule import TriggerRule
 from o2a_libs.el_basic_functions import *
 from airflow.operators import bash_operator
-import datetime
 from o2a_libs.el_wf_functions import *
 from airflow.operators import dummy_operator
 from dateutil.relativedelta import *
